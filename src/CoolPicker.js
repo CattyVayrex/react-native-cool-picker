@@ -4,7 +4,7 @@ import { debounce } from 'lodash';
 
 const CoolPicker = ({
   items,
-  pickerItemHeight = 34,
+  pickerItemHeight = 40,
   textStyles = {},
   containerStyles = {},
   highlightStyles = {},
