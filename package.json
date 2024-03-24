@@ -1,6 +1,6 @@
 {
   "name": "react-native-cool-picker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A cool ios style react native picker and selector that works with cool animations.",
   "main": "src/CoolPicker.js",
   "scripts": {
