@@ -40,20 +40,15 @@ Here's an example code for how you can use it:
      }
      
      export default Something
-this should be how it looks![enter image description here](https://s8.uupload.ir/files/ezgif-1-3638d371f7_9zrv.gif)
 
-Items should look like this:
 
-    const items = [
-    	{label: 'Item 1', Value: '1'},
-    	{label: 'Item 2, Value: '2'},
-    	{label: 'Item 3', Value: '3'},
-    ]
+This should be how it looks
 
-Tou can give the picker item's height like this: ( Default is 34 )
+![Example output](https://s8.uupload.ir/files/ezgif-1-3638d371f7_9zrv.gif)
 
-    <CoolPicker pickerItemHeight = {theHeightYouWant} />
- You can also set these:
+.....
+
+
 
 | Props|type  |Example|
 |--|--|--|
@@ -66,3 +61,12 @@ Tou can give the picker item's height like this: ( Default is 34 )
 |initialSelectedIndex|int|`0`|
 |animateInitialSelectedIndex|bool|`true`|
 |onItemSelected|function|`(selectedItem) => console.log(selectedItem)`
+
+....
+An example of how Items should look like:
+
+    const items = [
+    	{label: 'Item 1', Value: '1'},
+    	{label: 'Item 2, Value: '2'},
+    	{label: 'Item 3', Value: '3'},
+    ]
